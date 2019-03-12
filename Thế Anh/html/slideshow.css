@@ -1,0 +1,94 @@
+.container {
+
+  position: relative;
+  width: 70%;
+}
+.button {
+
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+{
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 50px;
+}
+
+/* chuyển ảnh khi di chuột vào */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.main {
+  width: 500px;
+  text-align: center;
+  margin: auto;
+}
+.main .container {
+  left: 300px;
+  position: relative;
+  width: 105%;
+  margin-right:100px; 
+}
+ 
+.image {
+  display: block;
+  width: 70%;
+  height: auto;
+}
+ 
+.main .overlay {
+  position: absolute;
+  top: -10px;
+  bottom: 0;
+  left: 25px;
+  right: 0;
+  height: 100%;
+  width: 60%;
+  opacity: 0;
+  transition: .9s ease;
+  
+}
+ 
+.main .container:hover .overlay {
+  opacity: 1;
+}
+ 
+.imgoverlay {
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.top-content{
+  margin-top:50px; 
+  margin-bottom:50px;
+  width: 450px;
+}
+.white{
+  margin-top: 0px;
+}
