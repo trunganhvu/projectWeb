@@ -10,166 +10,11 @@ font-size: 300%;
   background-color: black;
 }
 
-.s1{
-  display: inline-block;
-  padding-left: 50px;
-  padding-right:50px; 
-
-} 
-.s1:hover .loai1{
-  display: inline;
+.click-sanpham:hover{
+  background-color: rgb(187, 186, 186);
+  padding: 15px;
 }
-.aa:hover{
-  background-color: red;
-}
-.loai1{
-  position: absolute;
-  display: none;
-  margin: 0;
-  padding: 0;
-}
-.loai1 li{
-  background:black; 
-  display: block; 
-}
-
-.s2{
-  display: inline-block;
-  padding-left: 50px;
-  padding-right:50px; 
-  margin: auto;
-
-}
-
-.s2:hover .loai2{
-  display: inline;
-}
-.loai2{
-  position: absolute;
-  display: none;
-  margin: 0;
-  padding: 0;
-}
-.loai2 li{
-  background:black; 
-  display: block; 
-}
-
-.s3{
-  display: inline-block;
-  padding-left: 50px;
-  padding-right:50px; 
-
-
-}
-.s3:hover .loai3{
-  display: inline;
-}
-.loai3{
-  position: absolute;
-  display: none;
-  margin: 0;
-  padding: 0;
-}
-.loai3 li{
-  background:black; 
-  display: block; 
-}
-
-.s4{
-  display: inline-block;
-   padding-left: 50px;
-  padding-right:50px; 
-
-}
-.s4:hover .loai4{
-  display: inline;
-}
-.loai4{
-  position: absolute;
-  display: none;
-  margin: 0;
-  padding: 0;
-}
-.loai4 li{
-  background:black; 
-  display: block; 
-}
-.top-content{
-  width: 450px;
-}
-/* tạo checkbox */
-.a .container {
-  display: block;
-  position: relative;
-  padding-left: 0px;
-  margin-bottom: 12px;
-  cursor: pointer;
-  font-size: 15px;
-
-
-
-  
-}
-
-
-.a .container input {
-  position: absolute;
-  opacity: 0;
-  cursor: pointer;
-  height: 0;
-  width: 0;
-}
-
-
-.checkmark {
-  position: absolute;
-  top: 0;
-  left:-30px;
-  height: 25px;
-  width: 25px;
-  background-color: #eee;
-  border-radius: 50%;
-}
-
-
-.a .container:hover input ~ .checkmark {
-  background-color: #ccc;
-}
-
-
-.a .container input:checked ~ .checkmark {
-  background-color: #2196F3;
-}
-
-.checkmark:after {
-  content: "";
-  position: absolute;
-  display: none;
-}
-
-.a .container input:checked ~ .checkmark:after {
-  display: block;
-}
-
-.a .container .checkmark:after {
-  left: 9px;
-  top: 9px;
-  width: 7px;
-  height: 7px;
-  border: solid white;
-  border-radius: 50%;
-
-}
-.a  h1{
-  font-size: 200%;
-}
-.a{
-  padding-left: 0px; 
-  padding-top:100px; 
-  float: left;
-}
-/*thanh trượt giá sp*/
+/*thanh trượt sp*/
 .slidecontainer {
   width: 100%;
 }
@@ -207,6 +52,83 @@ font-size: 300%;
   background: blue;
   cursor: pointer;
 }
+.s1{
+  display: inline-block;
+  padding: 15px;
+  margin-left: 30px;  
+} 
+.s1:hover .loai1{
+  display: inline;
+}
+
+
+.s2{
+  display: inline-block;
+  padding-left: 50px;
+  padding-right:50px; 
+  margin: auto;
+
+}
+
+.s2:hover .loai2{
+  display: inline;
+}
+
+
+.s3{
+  display: inline-block;
+  padding-left: 50px;
+  padding-right:50px; 
+
+
+}
+.s3:hover .loai3{
+  display: inline;
+}
+
+
+.s4{
+  display: inline-block;
+   padding-left: 50px;
+  padding-right:50px; 
+
+}
+.s4:hover .loai4{
+  display: inline;
+}
+
+.top-content{
+  width: 450px;
+}
+/* tạo checkbox */
+.a .container {
+  display: block;
+  position: relative;
+  padding-left: 0px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 15px;
+
+}
+.checkmark {
+  position: absolute;
+  top: 0;
+  left:-30px;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+.a  h1{
+  font-size: 200%;
+}
+.a{
+  padding-left: 0px; 
+  padding-top:100px; 
+  float: left;
+}
+
 .sanpham .overlay {
   height: 0%;
   width: 100%;

@@ -1,184 +1,112 @@
 <!DOCTYPE html>
 <html lang="vi">
 <head>
-	<mata charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>MY WED</title>
-	<link rel="stylesheet" href="file.css">
-	
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+		<title>Document</title>
+		<link rel="stylesheet" href="file.css">
+		<link rel="stylesheet" href="slideshow.css">
+		<link rel="stylesheet" href="footer.css">
 </head>
 <body>
-	<nav class="sanpham">
-		<div class="container-fluid">
-		  <div class="navbar-header">
-			  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>                        
-			</button>
-		  </div>
-		  <div>
-			<div class="collapse navbar-collapse" id="myNavbar">
-			  <ul class="nav navbar-nav">
-			   
-				<li class="s1">
-				  <a href="#section1" class="aa" onclick="openNav()">&#9776;>Giày nam</a>
-				  <div id="myNav" class="overlay">
-					<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-					<div class="overlay-content">
-					  <a href="#">About</a>
-					  <a href="#">Services</a>
-					  <a href="#">Clients</a>
-					  <a href="#">Contact</a>
-					</div>
-				  </div>
-				  
+		<div class="footer-content row" role="navigation">
+				<div class="small-12 medium-2 large-2 medium-offset-1 large-offset-1 columns collapsed" role="menu">
+				<div class="footer_col1 footer_col">
+				<div class="" aria-labelledby="footer-col-shop">
+				<div class="heading" id="footer-col-shop">Shop</div>
+				<div class="column-content" style="display: none;">
+				<div class="subheading">By Category</div>
+				<ul>
+				<li role="menuitem"><a href="/shop.html" data-navigation="column-1:link-1" data-dom-location="footer">Shop Home</a></li>
+				<li role="menuitem"><a href="/mens.html" data-navigation="column-1:link-2" data-dom-location="footer">Mens</a></li>
+				<li role="menuitem"><a href="/womens.html" data-navigation="column-1:link-3" data-dom-location="footer">Womens</a></li>
+				<li role="menuitem"><a href="/kids.html" data-navigation="column-1:link-4" data-dom-location="footer">Kids</a></li>
+				<li role="menuitem"><a href="/classics" data-navigation="column-1:link-5" data-dom-location="footer">Classics</a></li>
+				</ul>
+				</div>
+				</div>
+				</div>
+				</div>
+				<div class="small-12 medium-2 large-2 columns collapsed" role="menu">
+				<div class="footer_col2 footer_col">
+				<div class="" aria-labelledby="footer-col-sports">
+				<div class="heading" id="footer-col-sports">Sports</div>
+				<div class="column-content" style="display: none;">
+				<ul>
+				<li role="menuitem"><a href="/skate.html" data-navigation="column-2:link-1" data-dom-location="footer">Skate</a></li>
+				<li role="menuitem"><a href="/surf.html" data-navigation="column-2:link-2" data-dom-location="footer">Surf</a></li>
+				<li role="menuitem"><a href="/surf-womens.html" data-navigation="column-2:link-3" data-dom-location="footer">Women's Surf</a></li>
+				<li role="menuitem"><a href="/snow.html" data-navigation="column-2:link-4" data-dom-location="footer">Snow</a></li>
+				<li role="menuitem"><a href="/bmx.html" data-navigation="column-2:link-5" data-dom-location="footer">BMX</a></li>
+				</ul>
+				​</div>
+				</div>
+				</div>
+				</div>
+				<div class="small-12 medium-2 large-2 columns collapsed" role="menu">
+				<div class="footer_col3 footer_col">
+				<div class="" aria-labelledby="footer-col-support">
+				<div class="heading" id="footer-col-support">Support</div>
+				<div class="column-content" style="display: none;">
+				<ul>
+				<li role="menuitem"><a href="https://www.vans.com/help.html" data-navigation="column-3:link-1" data-dom-location="footer">FAQs</a></li>
+				<li role="menuitem"><a href="/utility/store-locator.html" data-navigation="column-3:link-2" data-dom-location="footer">Store Locator</a></li>
+				</ul>
+				​</div>
+				</div>
+				</div>
+				</div>
+				<div class="small-12 medium-2 large-2 columns collapsed" role="menu">
+				<div class="footer_col4 footer_col">
+				<div class="" aria-labelledby="footer-col-company">
+				<div class="heading" id="footer-col-company">Company</div>
+				<div class="column-content" style="display: none;">
+				<ul>
+				<li role="menuitem"><a href="/terms-conditions.html" data-navigation="column-4:link-1" data-dom-location="footer">Terms of Use</a></li>
+				<li role="menuitem"><a href="/privacy.html" data-navigation="column-4:link-2" data-dom-location="footer">Privacy</a></li>
+				<li role="menuitem"><a href="http://sites.vans.com/careers?ref=footer" data-navigation="column-4:link-3" data-dom-location="footer">Careers</a></li>
+				<li role="menuitem"><a href="/history" data-navigation="column-4:link-4" data-dom-location="footer">About</a></li>
+				<li role="menuitem"><a href="http://www.vfc.com/california-transparency-in-supply-chains-act" data-navigation="column-4:link-5" data-dom-location="footer" target="_blank">CA Supply Chains Act</a></li>
+				<li role="menuitem"><a href="/sustainability.html" data-navigation="column-4:link-6" data-dom-location="footer">Sustainability</a></li>
+				<li role="menuitem"><a href="/affiliates.html" data-navigation="column-4:link-7" data-dom-location="footer">Affiliates</a></li>
+				<li role="menuitem"><a href="https://sites.vans.com/recall" data-navigation="column-4:link-8" data-dom-location="footer" target="_blank">Recall Info</a></li>
+				</ul>
+				​</div>
+				</div>
+				</div>
+				</div>
+				<div class="small-12 medium-2 large-2 columns end collapsed" role="menu">
+				<div class="footer_col5 footer_col">
+				<div class="" aria-labelledby="footer-col-contact">
+				<div class="heading" id="footer-col-contact">Contact</div>
+				<div class="column-content" style="display: none;">
+				<ul>
+				</ul>
+				<div><ul>
+				<li><a href="/utility/contact-us.html">Contact Us</a><br>
 				</li>
-			  
-				<li class="s2">
-				  <a href="#section2">Giày nữ</a>
-				  <ul class="loai2">
-					  <li><a href="#section21">Sneaker Nữ</a></li>
-					  <li><a href="#section22">Giày búp bê</a></li>
-					  <li><a href="#section23">Giày cao gót</a></li>
-					  <li><a href="#section24">Giày rọ</a></li>
-					</ul>
-				</li>
-	  
-				<li class="s3">
-					<a href="#section3">Dép</a>
-					<ul class="loai3">
-					  <li><a href="#section31">Dép Nam</a></li>
-					  <li><a href="#section32">Dép nữ</a></li>
-					  <li><a href="#section33">Dép quai hậu</a></li>
-					  <li><a href="#section34">Tông</a></li>
-					</ul>
-				  </li>
-	  
-				<li class="s4">
-				  <a href="#section4">Tất - phụ kiện</a>
-				  <ul class="loai4">
-					  <li><a href="#section41">Sịp nam</a></li>
-					  <li><a href="#section42">Sịp nữ</a></li>
-					  <li><a href="#section43">Vớ</a></li>
-					  <li><a href="#section44">Vòng</a></li>
-					</ul>
-				</li>
-			  </ul>
-			</div>
-		  </div>
-		</div>
-		<script>
-			function openNav() {
-			  document.getElementById("myNav").style.height = "100%";
-			}
-			
-			function closeNav() {
-			  document.getElementById("myNav").style.height = "0%";
-			}
-			</script>           
-	  </nav>
-	  <div class="row">
-
-			<div class="col-lg-4 col-md-6 mb-4">
-			  <div class="card h-100">
-				<a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-				<div class="card-body">
-				  <h4 class="card-title">
-					<a href="#">Item One</a>
-				  </h4>
-				  <h5>$24.99</h5>
-				  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
+				<li><a href="http://www.vans.com/webapp/wcs/stores/servlet/LogonForm?pageName=orderlookup&amp;langId=-1&amp;storeId=10153">Order Status</a></li>
+				</ul>
+				<ul>
+				<li class="subheading">Address</li>
+				<li>1588 South Coast Dr<br>
+				Costa Mesa, CA 92626</li>
+				</ul>
+				<ul>
+				<li class="subheading">Hours</li>
+				<li>M - F 6:00am - 8:00pm PST</li>
+				</ul>
 				</div>
-				<div class="card-footer">
-				  <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
 				</div>
-			  </div>
-			</div>
-  
-			<div class="col-lg-4 col-md-6 mb-4">
-			  <div class="card h-100">
-				<a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-				<div class="card-body">
-				  <h4 class="card-title">
-					<a href="#">Item Two</a>
-				  </h4>
-				  <h5>$24.99</h5>
-				  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur! Lorem ipsum dolor sit amet.</p>
 				</div>
-				<div class="card-footer">
-				  <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
 				</div>
-			  </div>
-			</div>
-  
-			<div class="col-lg-4 col-md-6 mb-4">
-			  <div class="card h-100">
-				<a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-				<div class="card-body">
-				  <h4 class="card-title">
-					<a href="#">Item Three</a>
-				  </h4>
-				  <h5>$24.99</h5>
-				  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
 				</div>
-				<div class="card-footer">
-				  <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
 				</div>
-			  </div>
-			</div>
-  
-			<div class="col-lg-4 col-md-6 mb-4">
-			  <div class="card h-100">
-				<a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-				<div class="card-body">
-				  <h4 class="card-title">
-					<a href="#">Item Four</a>
-				  </h4>
-				  <h5>$24.99</h5>
-				  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
-				</div>
-				<div class="card-footer">
-				  <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
-				</div>
-			  </div>
-			</div>
-  
-			<div class="col-lg-4 col-md-6 mb-4">
-			  <div class="card h-100">
-				<a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-				<div class="card-body">
-				  <h4 class="card-title">
-					<a href="#">Item Five</a>
-				  </h4>
-				  <h5>$24.99</h5>
-				  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur! Lorem ipsum dolor sit amet.</p>
-				</div>
-				<div class="card-footer">
-				  <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
-				</div>
-			  </div>
-			</div>
-  
-			<div class="col-lg-4 col-md-6 mb-4">
-			  <div class="card h-100">
-				<a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-				<div class="card-body">
-				  <h4 class="card-title">
-					<a href="#">Item Six</a>
-				  </h4>
-				  <h5>$24.99</h5>
-				  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
-				</div>
-				<div class="card-footer">
-				  <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
-				</div>
-			  </div>
-			</div>
-  
-		  </div>
 </body>
 </html>
