@@ -1,0 +1,44 @@
+<%include template/header %>
+
+
+	<!-----------Content--------------->
+	<div class="single_top" style="text-algin">
+	 <div class="container"> 
+	    <div class="register">
+			  <div class="col-md-6 login-right">
+						<div class="d-flex justify-content-end social_icon">
+								<span><i class="fab fa-facebook-square"></i></span>
+								<span><i class="fab fa-google-plus-square"></i></span>
+								<span><i class="fab fa-twitter-square"></i></span>
+								
+        <a href="/signup" class="btn btn-default"><span class="fa fa-user"></span> Local Signup</a>
+        <a href="/facebookAuth/facebook" class="btn btn-primary"><span class="fa fa-facebook"></span> Facebook</a>
+				
+							</div>
+			  	<h3>REGISTERED CUSTOMERS</h3>
+				<form action="/login" method="post">
+				  <div>
+						<span for="user">Email Address</span>
+						<input type="text" name="user"> 
+						</div>
+				  <div>
+					<span for="password">Password</span>
+					<input type="text" name="password"> 
+				  </div>
+				  
+					<input type="submit" value="login">
+					<a class="acount-btn" href="register">Create an Account</a>
+					<br>
+					<a class="forgot" href="#">Forgot Your Password?</a>
+			    </form>
+			   </div>
+			  
+			   </div>	
+			   <div class="clearfix"> </div>
+		</div>
+     </div>
+</div>      
+
+    <!--------------footer-------------------------------------------->
+    <%include template/footer %>
+    
