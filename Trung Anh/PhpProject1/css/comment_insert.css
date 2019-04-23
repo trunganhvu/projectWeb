@@ -1,0 +1,77 @@
+.comment-insert{
+    position: relative;
+    height: 135px;
+    line-height: auto px;
+    color: #99ff66;
+    font-size: 14px;
+    width: auto;
+    margin: 0 100px 0 10px;
+    border: 0px solid #666699;
+    
+}
+.comment-insert h3.who-says {
+    
+    
+    
+    
+}
+.comment-insert h3.who-says span {
+    
+    
+    
+    
+}
+
+.comment-insert .comment-insert-container {
+    margin: 15px 10px 15px 70px;
+    border: 2px solid #003300;
+    width: 560px;
+    height: auto px;
+    
+    
+    
+}
+#comment-post-btn {
+    right: 0px;
+    position: absolute;
+    
+    top: 100px;
+    width: 125px;
+    height: 25px;
+    line-height:10px; 
+    background:#ff9999;
+    color:#000000;
+    text-align: center;
+    font-size: 14px;
+    padding-top: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    
+    
+    
+}
+.comment-post-btn-wrapper:hover
+{
+    
+    background: #ff0000;
+    
+    
+    
+    
+    
+    
+    
+}
+
+
+
+
+.comment-insert .comment-insert-container textarea.comment-insert-text {
+   
+    border: 1px solid #003300;
+    width: 553px;
+    height: 545 px;
+    
+    
+    
+}
