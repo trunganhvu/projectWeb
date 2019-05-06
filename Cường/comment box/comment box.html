@@ -1,0 +1,35 @@
+<?php require_once $_SERVER['root'] . 'define.php'; ?>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Comment Box</title>
+	<link rel="stylesheet" type="text/css" href="layoutcomment.css">
+	<link rel="stylesheet" type="text/css" href="jscomment.js">
+</head>
+<body>
+	<div class="wrapper">
+		
+
+		<div class="comment-wrapper">
+			<h3 class="comment-title"> Nhận xét</h3>
+
+			<div class="comment-list">
+				<ul class="comments-holder-ul">
+					<?php require_once INCLUDES . 'comment_box.php'; ?>
+
+				</ul>
+
+
+
+			</div>
+		</div>
+		
+	</div>
+
+	
+
+
+
+
+</body>
+</html>
