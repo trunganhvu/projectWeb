@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html slang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+
+
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="backtotop.js"></script>
+  <title>Document</title>
+  <link rel="stylesheet" href="file.css">
+  <link rel="stylesheet" href="slideshow.css">
+  <link rel="stylesheet" href="footer.css">
+  
+</head>
+
+<body>
+
+
+    <nav class="nav navbar-expand-lg navbar-light bg-dark ">
+      
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01" >
+          <i class="fa fa-user icon" style="size:250px;"></i>
+          <a  class="trangchu" style="color:white;" href="project.html">Trang chủ</a>
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <p class="colortrangthai">
+            <li class="nav-item active">
+              <a class="nav-link" href="#" style="color:white;margin-left:70px;font-size :15px; ">Hotline (0969468213) <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="front_GioHang.html" style="color:white;">Gio Hang</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#" style="color:white;">Một cái gì đấy</a>
+            </li>
+          </p>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-1" type="search" placeholder="Search" aria-label="Search" style="width:200px;" >
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form>
+          </ul>
+          
+        </div>
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="login.html"><span class="glyphicon glyphicon-user"></span> Đăng nhập</a></li>
+            <li><a href="register.html"><span class="glyphicon glyphicon-log-in"></span> Đăng ký</a></li>
+          </ul>
+      </nav>
+      
+  <nav class="sanpham">
+    <div class="container-fluid">
+      
+        <div class="collapse navbar-collapse" id="myNavbar"></div>
+
+
+        <li class="dropdown">
+          <a href="javascript:void(0)" class="dropbtn">Giày nam</a>
+          <div class="dropdown-content">
+               <a href="#">Sneaker nam</a>
+               <a href="#">Giày lười</a>
+               <a href="#">Giày đinh</a>
+               <a href="#">Giày chạy bộ</a>
+          </div>
+        </li>
+
+        <li class="dropdown">
+          <a href="javascript:void(0)" class="dropbtn">Giày nữ</a>
+          <div class="dropdown-content">
+               <a href="#">Sneaker nữ</a>
+               <a href="#">Giày búp bê</a>
+               <a href="#">Giày cao gót</a>
+               <a href="#">Giày bệt</a>
+          </div>
+        </li>
+
+        <li class="dropdown">
+          <a href="javascript:void(0)" class="dropbtn">Dép</a>
+          <div class="dropdown-content">
+              <a href="#">Dép nam</a>
+              <a href="#">Dép nữ</a>
+              <a href="#">Dép quai hậu</a>
+              <a href="#">Tông</a>
+          </div>
+        </li>
+
+        <li class="dropdown">
+          <a href="javascript:void(0)" class="dropbtn">Phụ kiện</a>
+          <div class="dropdown-content">
+                <a href="#">Tất</a>
+                        <a href="#">Đế Giày</a>
+                        <a href="#">Lọ vệ sinh giày</a>
+                        <a href="#">Túi bọc giày</a>
+          </div>
+        </li>
+
+        </div>
+    </div>
+
+  </nav>
+
+
+  <!------------------------GIỎ HÀNG--------------------------------->
+	<h2 class="text-center" ></br>GIỎ HÀNG</h2>
+	<div class="container"> 
+	 <table id="cart" class="table table-hover table-condensed"> 
+	  <thead> 
+	   <tr> 
+		<th style="width:50%">Tên sản phẩm</th> 
+		<th style="width:10%">Giá</th> 
+		<th style="width:8%">Số lượng</th> 
+		<th style="width:22%" class="text-center">Thành tiền</th> 
+		<th style="width:10%"> </th> 
+	   </tr> 
+	  </thead> 
+	  <tbody><tr> 
+	   <td data-th="Product"> 
+		<div class="row"> 
+		 <div class="col-sm-2 hidden-xs"><img src="http://hocwebgiare.com/thiet_ke_web_chuan_demo/shopping_cart/images/090.jpg" alt="Sản phẩm 1" class="img-responsive" width="100">
+		 </div> 
+		 <div class="col-sm-10"> 
+		  <h4 class="nomargin">Sản phẩm 1</h4> 
+		  <p>Mô tả của sản phẩm 1</p> 
+		 </div> 
+		</div> 
+	   </td> 
+	   <td data-th="Price">200.000 đ</td> 
+	   <td data-th="Quantity"><input class="form-control text-center" value="1" type="number">
+	   </td> 
+	   <td data-th="Subtotal" class="text-center">200.000 đ</td> 
+	   <td class="actions" data-th="">
+		<button class="btn btn-info btn-sm"><i class="fa fa-edit"></i>
+		</button> 
+		<button class="btn btn-danger btn-sm"><i class="fa fa-trash-o"></i>
+		</button>
+	   </td> 
+	  </tr> 
+	  <tr> 
+	   <td data-th="Product"> 
+		<div class="row"> 
+		 <div class="col-sm-2 hidden-xs"><img src="http://hocwebgiare.com/thiet_ke_web_chuan_demo/shopping_cart/images/174.jpg" alt="Sản phẩm 1" class="img-responsive" width="100">
+		 </div> 
+		 <div class="col-sm-10"> 
+		  <h4 class="nomargin">Sản phẩm 2</h4> 
+		  <p>Mô tả của sản phẩm 2</p> 
+		 </div> 
+		</div> 
+	   </td> 
+	   <td data-th="Price">300.000 đ</td> 
+	   <td data-th="Quantity"><input class="form-control text-center" value="1" type="number">
+	   </td> 
+	   <td data-th="Subtotal" class="text-center">300.000 đ</td> 
+	   <td class="actions" data-th="">
+		<button class="btn btn-info btn-sm"><i class="fa fa-edit"></i>
+		</button> 
+		<button class="btn btn-danger btn-sm"><i class="fa fa-trash-o"></i>
+		</button>
+	   </td> 
+	  </tr> 
+	  </tbody><tfoot> 
+	   <tr class="visible-xs"> 
+		<td class="text-center"><strong>Tổng 200.000 đ</strong>
+		</td> 
+	   </tr> 
+	   <tr> 
+		<td><a href="#" class="btn btn-warning"><i class="fa fa-angle-left"></i> Tiếp tục mua hàng</a>
+		</td> 
+		<td colspan="2" class="hidden-xs"> </td> 
+		<td class="hidden-xs text-center"><strong>Tổng tiền 500.000 đ</strong>
+		</td> 
+		<td><a href="#" class="btn btn-success btn-block">Thanh toán <i class="fa fa-angle-right"></i></a>
+		</td> 
+	   </tr> 
+	  </tfoot> 
+	 </table>
+	</div>
+
+
+
+
+
+	
+	
+	
+	
+  <!------------------------------------------------->
+
+  <br>
+  <div class="footer">
+    
+    <!---->
+    <div class="footer-middle">
+      <div class="container mx-auto">
+        <div class="footer-middle-in">
+          <h6>About us</h6>
+          <p>Suspendisse sed accumsan risus. Curabitur rhoncus, elit vel tincidunt elementum, nunc urna tristique nisi,
+            in interdum libero magna tristique ante. adipiscing varius. Vestibulum dolor lorem.</p>
+        </div>
+        <div class="footer-middle-in ">
+          <h6 style="padding-left:40px;">Information</h6>
+          <ul text-center>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Delivery Information</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+          </ul>
+        </div>
+        <div class="footer-middle-in">
+          <h6 style="padding-left:40px;">Customer Service</h6>
+          <ul>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="#">Returns</a></li>
+            <li><a href="#">Site Map</a></li>
+          </ul>
+        </div>
+        <div class="footer-middle-in">
+          <h6 style="padding-left:40px;">My Account</h6>
+          <ul>
+            <li><a href="account.html">My Account</a></li>
+            <li><a href="#">Order History</a></li>
+            <li><a href="wishlist.html">Wish List</a></li>
+            <li><a href="#">Newsletter</a></li>
+          </ul>
+        </div>
+        <div class="footer-middle-in">
+          <h6 style="padding-left:40px;">Extras</h6>
+          <ul>
+            <li><a href="#">Brands</a></li>
+            <li><a href="#">Gift Vouchers</a></li>
+            <li><a href="#">Affiliates</a></li>
+            <li><a href="#">Specials</a></li>
+          </ul>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+    </div>
+    <p class="footer-class">Copyright © 2015 Modern Template by <a href="http://w3layouts.com/"
+        target="_blank">W3layouts</a> </p>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        /*
+        var defaults = {
+            containerID: 'toTop', // fading element id
+          containerHoverID: 'toTopHover', // fading element hover id
+          scrollSpeed: 1200,
+          easingType: 'linear' 
+         };
+        */
+
+        $().UItoTop({ easingType: 'easeOutQuart' });
+
+      });
+    </script>
+    <a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+
+  </div>
+
+  
+</body>
+
+</html>

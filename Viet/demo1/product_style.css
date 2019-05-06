@@ -1,0 +1,67 @@
+.container {
+
+	margin-top: 100px;
+
+
+}
+
+.newarrival {
+	background: green;
+	width: 50px;
+	color: white;
+	font-size: 12px;
+	font-weight: bold;
+}
+.col-md-7 h2 {
+	color: #555;
+
+
+
+
+}
+.checked{
+	color: #ffff99;
+
+}
+.nonchecked{
+	color: #669999;
+
+}
+
+
+.price-special {
+	color: red;
+
+
+}
+.price {
+
+	margin-top: 50px;
+	margin-bottom: 12px;
+}
+
+input {
+	border: 1px solid #ccc;
+	font-weight: bold;
+	height: 33px;
+	text-align: center;
+	width: 30px;
+
+}
+
+.bnt {
+	border: 1px solid #ccc;
+	background-color: red;
+	border-radius: 8px;
+	color: #FFFFFF;
+	font-size: 15px;
+	margin-left: 20px;
+	padding: 4px;
+
+}
+.bnt:hover {
+
+	background-color: rgb(255, 102, 0);
+
+
+}
