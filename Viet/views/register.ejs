@@ -1,0 +1,47 @@
+<%include template/header %>
+
+	<!-----------Content--------------->
+	<div class="single_top">
+	 <div class="container"> 
+	     <div class="register">
+		  	  <form action="/register" method="post"> 
+				 <div class="register-top-grid">
+					<h3>PERSONAL INFORMATION</h3>
+					 <div>
+						<span for="firstname">First Name<label>*</label></span>
+						<input type="text" name="firstname"> 
+					 </div>
+					 <div>
+						<span for="lastname">Last Name<label>*</label></span>
+						<input type="text" name="lastname"> 
+					 </div>
+					 <div>
+						 <span for="email">Email Address<label>*</label></span>
+						 <input type="text" name="email"> 
+					 </div>
+					</h3>
+							 <div>
+								<span for="password">Password<label>*</label></span>
+								<input type="text" name="password">
+							 </div>
+							 <div>
+								<span for="confirmpassword">Confirm Password<label>*</label></span>
+								<input type="text" name="confirmpassword">
+							 </div>
+							 <div class="clearfix"> </div>
+					 </div>
+		
+				<div class="clearfix"> </div>
+				<div class="register-but">
+				 <input type="submit" value="register">
+					   <div class="clearfix"> </div>
+
+					  
+				   </form>
+				</div>
+		   </div>
+     </div>
+</div>      
+
+	<!--------------footer-------------------------------------------->
+<%include template/footer %>
