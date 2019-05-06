@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+	<title>Chùa Phúc Minh</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+
+<body>
+	<header class="containner">
+		<div>
+			<!--Heading -->
+			<h1>Chùa Phúc Minh</h1>
+		</div>
+	
+		<nav>
+			<ul>
+  				<li><a href="home.html">HOME</a></li>
+    			<li><a href="kinhtrungbo.html">KINH TRUNG BỘ</a></li>
+  				<li><a href="kinhtieubo.html">KINH TIỂU BỘ</a></li>
+  				<li><a href="kinhtuongungbo.html">KINH TƯƠNG ƯNG BỘ</a></li>
+  				<li><a href="chuyenveducphat.html">CHUYỆN VỀ ĐỨC PHẬT</a></li>
+  				<li><a href="ghiamkinh.html">GHI ÂM KINH</a></li>
+  				<li><a href="gioithieu.html">GIỚI THIỆU</a></li>
+			</ul>
+		</nav>
+	</header>
+	<br>
+	<br>
+	<hr>
+	
