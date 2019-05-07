@@ -1,6 +1,6 @@
 # <b>VŨ TRUNG ANH</b>
 ## Mã Sinh Viên:17020595    NHÓM DỰ ÁN: Nhóm 99
-## VAI TRÒ: PRODUCT OWNER, SCRUM MASTER
+## Vai trò: Product Owner, Scrum Master
 
 ## BÁO CÁO CÁ NHÂN 
 * Hoàn thành khóa học trên edx 
