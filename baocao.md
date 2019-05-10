@@ -47,14 +47,13 @@
   
 	
 
- 
 
 
-	![enter image description here](https://scontent.fhan2-3.fna.fbcdn.net/v/t1.15752-9/59629494_2228246720597386_1659702494206361600_n.png?_nc_cat=108&_nc_oc=AQlJF0LFRxNwNdAWuqpwD6IvKZuLKl1D6mUdIoGQnZK5kdtMrZPukAlSbY-ReTEh19A&_nc_ht=scontent.fhan2-3.fna&oh=49fdfefa3e39d3156ba35ffae47d5dbb&oe=5D7494A6)
 
-![enter image description here](https://scontent.fhan2-4.fna.fbcdn.net/v/t1.15752-9/60038080_2362320363983897_1931372180839333888_n.png?_nc_cat=100&_nc_oc=AQmH6pQCRdjn7ffYXv_NgUYdM78WOqiXZMgDQ0Sw7LKgh-DoUCOg0PTFrTxuZPuc1Kc&_nc_ht=scontent.fhan2-4.fna&oh=4d9ca4fb8f8c47ab5ad25ae1cd5abc8f&oe=5D5EAF41)
+	![enter image description here](https://scontent.fhan2-4.fna.fbcdn.net/v/t1.15752-9/60038080_2362320363983897_1931372180839333888_n.png?_nc_cat=100&_nc_oc=AQmH6pQCRdjn7ffYXv_NgUYdM78WOqiXZMgDQ0Sw7LKgh-DoUCOg0PTFrTxuZPuc1Kc&_nc_ht=scontent.fhan2-4.fna&oh=4d9ca4fb8f8c47ab5ad25ae1cd5abc8f&oe=5D5EAF41)
 
 		
 	 
-
+### [(Tài liệu sản phẩm)](https://docs.google.com/document/d/1pCmfYv3wzcFY1H88atBAvIN3TzFGis404idlELk8Is8/edit#)
+ 
 			 
