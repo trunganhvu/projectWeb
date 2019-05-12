@@ -16,11 +16,11 @@
 
  	
   
-  * Võ Lộc Anh [(Link)]()
-  * Vũ Trung Anh [(Link)]()
-  * Đoàn Mạnh Cường [(Link)]()
-  * Hà Xuân Việt [(Link)]()
-  * Vi Thế Anh [(link)]()
+  * Võ Lộc Anh [(Link)](https://github.com/trunganhvu/INT2208-8-2019/blob/master/VoLocAnh/baocao.md)
+  * Vũ Trung Anh [(Link)](https://github.com/trunganhvu/INT2208-8-2019/blob/master/VuTrungAnh/baocao.md)
+  * Đoàn Mạnh Cường [(Link)](https://github.com/trunganhvu/INT2208-8-2019/blob/master/DoanManhCuong/baocao.md)
+  * Hà Xuân Việt [(Link)](https://github.com/trunganhvu/INT2208-8-2019/blob/master/HaxuanViet/baocao.md)
+  * Vi Thế Anh [(link)](https://github.com/trunganhvu/INT2208-8-2019/blob/master/ViTheAnh/Baocao.md)
 		
 ## Báo cáo
 * ### Mô hình phát triển sản phẩm: Agile Processes[(Tài liệu)](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.wgcflgn6nhvc)
