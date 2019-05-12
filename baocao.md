@@ -16,11 +16,11 @@
 
  	
   
-  * Võ Lộc Anh [(Link)](https://github.com/trunganhvu/INT2208-8-2019/blob/master/VoLocAnh/baocao.md)
-  * Vũ Trung Anh [(Link)](https://github.com/trunganhvu/INT2208-8-2019/blob/master/VuTrungAnh/baocao.md)
-  * Đoàn Mạnh Cường [(Link)](https://github.com/trunganhvu/INT2208-8-2019/blob/master/DoanManhCuong/baocao.md)
-  * Hà Xuân Việt [(Link)](https://github.com/trunganhvu/INT2208-8-2019/blob/master/HaxuanViet/baocao.md)
-  * Vi Thế Anh [(link)](https://github.com/trunganhvu/INT2208-8-2019/blob/master/ViTheAnh/Baocao.md)
+  * Võ Lộc Anh [(Link báo cáo)](https://github.com/trunganhvu/INT2208-8-2019/blob/master/VoLocAnh/baocao.md), [(Link userstory)](https://github.com/truonganhhoang/INT2208-8-2019/issues/166)
+  * Vũ Trung Anh [(Link báo cáo)](https://github.com/trunganhvu/INT2208-8-2019/blob/master/VuTrungAnh/baocao.md), [(Link userstory)](https://github.com/truonganhhoang/INT2208-8-2019/issues/133)
+  * Đoàn Mạnh Cường [(Link báo cáo)](https://github.com/trunganhvu/INT2208-8-2019/blob/master/DoanManhCuong/baocao.md), [(Link userstory)](https://github.com/truonganhhoang/INT2208-8-2019/issues/148)
+  * Hà Xuân Việt [(Link báo cáo)](https://github.com/trunganhvu/INT2208-8-2019/blob/master/HaxuanViet/baocao.md), [(Link userstory)](https://github.com/truonganhhoang/INT2208-8-2019/issues/153)
+  * Vi Thế Anh [(link báo cáo)](https://github.com/trunganhvu/INT2208-8-2019/blob/master/ViTheAnh/Baocao.md), [(Link userstory)](https://github.com/truonganhhoang/INT2208-8-2019/issues/162)
 		
 ## Báo cáo
 * ### Mô hình phát triển sản phẩm: Agile Processes[(Tài liệu)](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.wgcflgn6nhvc)
@@ -28,12 +28,12 @@
   * Scrum Maste: Vũ Trung Anh
   * Product Owner: Vũ Trung Anh, Vi Thế Anh
   * Developer: Võ Lộc Anh, Hà Xuân Việt, Đoàn Mạnh Cường, Vi Thế Anh, Vũ Trung Anh
-* ### Sprint Backlog: Hai tuần
-* ### Product Backlog:
-  * Nắm vững các kiến thức và kỹ năng liên quan, quá trình làm sản phẩm.
+* ### Sprint Backlog[(Tài liệu)](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.wgcflgn6nhvc): Hai tuần
+* ### Product Backlog[(Tài liệu)](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.wgcflgn6nhvc):
+  * Nắm vững các kiến thức và kỹ năng liên quan, quá trình làm sản phẩm[(Tài liệu)](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.ud9gvxp06ev7).
   * Tham khảo giao diện các trang web trên mạng về giao diện và chức năng, hiệu ứng.
-  * Thiết kế giao diện phần cơ bản(mockup) để thu thập ý kiến của Product Owner (Sprint 1)
-  * Thu thập, tạo cơ sở dữ liệu sẽ do product owner cung cấp và yêu cầu
+  * Thiết kế giao diện phần cơ bản(mockup) để thu thập ý kiến của Product Owner (Sprint 1)[(Tài liệu)](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.pxfsgxtlm12o)
+  * Thu thập, tạo cơ sở dữ liệu sẽ do product owner cung cấp và yêu cầu[(Tài liệu)](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.pxfsgxtlm12o)
   * Hiển thị giao diện và sản phẩm, thông tin mô tả hình ảnh, giá,...
   * Hoàn thiện giao diện như mong muốn(Sprint 2)
   * Tạo sự phân quyền, đăng ký, đăng nhập cho người dùng(Sprint 3)
